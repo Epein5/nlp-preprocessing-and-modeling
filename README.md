@@ -4,20 +4,26 @@ A comprehensive collection of NLP assignments covering fundamental concepts and 
 
 ## Project Structure
 
-### Assignment 1: NLP Preprocessing
+### Assignment 1.1: NLP Preprocessing
 - Text preprocessing techniques including tokenization, stemming, lemmatization, POS tagging, and NER
 - FastAPI backend with interactive web interface
 - Comparative analysis of stemming vs lemmatization
 
-### Assignment 2: Word Embeddings
+### Assignment 1.2: Word Embeddings
 - Implementation of word embeddings (TF-IDF and GloVe)
 - Interactive visualization of word vectors
 - Nearest neighbor analysis and dimensionality reduction
 
-### Assignment 3: Sequence-to-Sequence Summarization
+### Assignment 1.3: Sequence-to-Sequence Summarization
 - LSTM-based encoder-decoder model for text summarization
 - Training and evaluation notebooks
 - Sample dataset for model training
+
+### Assignment 2: Transformer Fine-tuning
+- Fine-tuning DistilBERT for sentiment analysis on IMDb movie reviews
+- Complete ML pipeline with comprehensive evaluation and visualization
+- Achieved 91.2% accuracy with detailed performance analysis
+- Transfer learning implementation with pre-trained transformers
 
 ## Setup Instructions
 
@@ -34,9 +40,12 @@ Each assignment directory contains its own `requirements.txt` file. To get start
 
 - NLP Libraries: NLTK, spaCy
 - Machine Learning: scikit-learn, gensim
-- Deep Learning: TensorFlow/Keras
+- Deep Learning: TensorFlow/Keras, PyTorch
+- Transformers: Hugging Face Transformers
 - Web Framework: FastAPI
 - Frontend: HTML, JavaScript
+- Data Processing: pandas, numpy
+- Visualization: matplotlib, seaborn
 
 ## License
 
